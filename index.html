@@ -14,11 +14,15 @@
 <body>
     <header class="header">
         <h1 class="header__title">PWA Training 21-06-2019</h1>
-        <button id="btnInstall" class="headerButton" title="Click to add to home screen" value="Install" hidden>Install</button>
+        <button id="btnInstall" class="headerButton" type="button" title="Click to add to home screen" value="Install" hidden>Install</button>
+        <button id="btnNotification" type="button" class="headerButton enable-notifications" value="Enable Notification">Enable Notification</button>
     </header>
     <main class="main">
         <div class="card cardTemplate">
             This is demo PWA.
+        </div>
+        <div class="card">
+<button id="btnGetJobs" class="headerButton" type="button">Get Jobs</button>
         </div>
     </main>
     <script src="scripts/app.js" async></script>
